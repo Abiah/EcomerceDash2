@@ -18,6 +18,22 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/product', function () {
+    return view('product');
+})->name('product')->middleware('auth');
+
+Route::get('/product_list', function () {
+    return view('veiw_product');
+})->name('product_list')->middleware('auth');
+
+Route::get('/order', function () {
+    return view('orders');
+})->name('order')->middleware('auth');
+
+Route::get('/complaint', function () {
+    return view('complaint');
+})->name('complaint')->middleware('auth');
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
