@@ -9,4 +9,4 @@
 ### npm run dev
 ### npm run build
 ### create new user using /register route
-
+### run php artisan serve to run the app on localhost port 8000
