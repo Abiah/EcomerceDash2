@@ -1,5 +1,6 @@
 #EcomDashboard
 ## How to use
+
 ### git clone repo
 ### copy .env.example
 ### rename to .env
@@ -7,3 +8,5 @@
 ### npm install
 ### npm run dev
 ### npm run build
+### create new user using /register route
+
